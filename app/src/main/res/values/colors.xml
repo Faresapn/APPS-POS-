@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBC63D</color>
+    <color name="colorPrimaryDark">#DDAB27</color>
+    <color name="colorPrimaryLight">#2E538A</color>
+    <color name="colorAccent">#90959C</color>
+    <color name="bg">#ffffff</color>
+    <color name="icon">#2E538A</color>
+    <color name="putih">#ffffff</color>
+    <color name="red">#DD1155</color>
+    <color name="black">#000000</color>
+    <color name="colorCard">#ededed</color>
+    <color name="dialog">#8080AB83</color>
+</resources>

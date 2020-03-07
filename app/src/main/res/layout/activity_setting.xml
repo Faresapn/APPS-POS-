@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    tools:context="com.DavidMuheri.KadaiDen.Activity.AddPelanggan"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#e9e9e9"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_nama" />
+
+                    <EditText
+                        android:id="@+id/nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="Nama Anda"
+                        android:inputType="textPersonName"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_phone" />
+
+                    <EditText
+                        android:id="@+id/hp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="No HP"
+                        android:inputType="phone"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_email_hijau" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="Email"
+                        android:inputType="phone"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="6dp"
+                        android:src="@drawable/ic_alamat" />
+
+                    <EditText
+                        android:id="@+id/alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:gravity="top"
+                        android:hint="Alamat"
+                        android:inputType="textMultiLine|textPersonName"
+                        android:padding="6dp"
+                        android:textAlignment="inherit" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/update_profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:elevation="5dp"
+                    android:text="Update"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#e9e9e9"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_pass_hijau" />
+
+                    <EditText
+                        android:id="@+id/pass_lama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="Password Lama"
+                        android:inputType="textPassword"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_pass_hijau" />
+
+                    <EditText
+                        android:id="@+id/pass_baru"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="Password Baru"
+                        android:inputType="textPassword"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:src="@drawable/ic_pass_hijau" />
+
+                    <EditText
+                        android:id="@+id/konfirm_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:hint="Ketik password baru"
+                        android:inputType="textPassword"
+                        android:padding="6dp" />
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/update_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sudut_tumpul"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:elevation="5dp"
+                    android:text="Update"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

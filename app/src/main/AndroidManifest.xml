@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.DavidMuheri.pos">
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <application
+        android:name="com.DavidMuheri.KadaiDen.Setting.AppController"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher_logoname"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_logoname_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.DavidMuheri.KadaiDen.Activity.PilihMode"></activity>
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.Splash_Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.DavidMuheri.KadaiDen.Activity.MainActivity" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.LoginActivity"
+            android:label="Login Form"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.PenjualanActivity"
+            android:label="Penjualan"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.PembayaranActivity"
+            android:label="Cash" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.AddPelanggan"
+            android:label="Tambah Pelanggan" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.DataPelanggan"
+            android:label="Data Pelanggan" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.CariPelanggan"
+            android:label="Cari Pelanggan" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Activity.SettingActivity"
+            android:label="Setting" />
+        <activity
+            android:name="com.DavidMuheri.KadaiDen.Print.DeviceListActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity android:name="com.DavidMuheri.KadaiDen.Activity.DataPenjualan" />
+        <activity android:name="com.DavidMuheri.KadaiDen.Activity.PenjualanBarcode" />
+        <activity android:name="com.DavidMuheri.KadaiDen.Activity.Portrait"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+    </application>
+
+</manifest>
