@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.DavidMuheri.pos">
+    package="com.Faresa.pos">
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
 
     <application
-        android:name="com.DavidMuheri.KadaiDen.Setting.AppController"
+        android:name="com.Faresa.POS.Setting.AppController"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher_logoname"
         android:label="@string/app_name"
@@ -24,9 +24,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.DavidMuheri.KadaiDen.Activity.PilihMode"></activity>
+        <activity android:name="com.Faresa.POS.Activity.PilihMode"></activity>
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.Splash_Activity"
+            android:name="com.Faresa.POS.Activity.Splash_Activity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,37 +34,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.DavidMuheri.KadaiDen.Activity.MainActivity" />
+        <activity android:name="com.Faresa.POS.Activity.MainActivity" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.LoginActivity"
+            android:name="com.Faresa.POS.Activity.LoginActivity"
             android:label="Login Form"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.PenjualanActivity"
+            android:name="com.Faresa.POS.Activity.PenjualanActivity"
             android:label="Penjualan"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.PembayaranActivity"
+            android:name="com.Faresa.POS.Activity.PembayaranActivity"
             android:label="Cash" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.AddPelanggan"
+            android:name="com.Faresa.POS.Activity.AddPelanggan"
             android:label="Tambah Pelanggan" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.DataPelanggan"
+            android:name="com.Faresa.POS.Activity.DataPelanggan"
             android:label="Data Pelanggan" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.CariPelanggan"
+            android:name="com.Faresa.POS.Activity.CariPelanggan"
             android:label="Cari Pelanggan" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Activity.SettingActivity"
+            android:name="com.Faresa.POS.Activity.SettingActivity"
             android:label="Setting" />
         <activity
-            android:name="com.DavidMuheri.KadaiDen.Print.DeviceListActivity"
+            android:name="com.Faresa.POS.Print.DeviceListActivity"
             android:theme="@android:style/Theme.DeviceDefault.Dialog" />
-        <activity android:name="com.DavidMuheri.KadaiDen.Activity.DataPenjualan" />
-        <activity android:name="com.DavidMuheri.KadaiDen.Activity.PenjualanBarcode" />
-        <activity android:name="com.DavidMuheri.KadaiDen.Activity.Portrait"
+        <activity android:name="com.Faresa.POS.Activity.DataPenjualan" />
+        <activity android:name="com.Faresa.POS.Activity.PenjualanBarcode" />
+        <activity android:name="com.Faresa.POS.Activity.Portrait"
             android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
             android:windowSoftInputMode="stateAlwaysHidden">

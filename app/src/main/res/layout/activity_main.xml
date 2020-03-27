@@ -8,7 +8,7 @@
     android:background="@color/bg"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.DavidMuheri.KadaiDen.Activity.MainActivity"
+    tools:context="com.Faresa.POS.Activity.MainActivity"
     tools:ignore="ContentDescription">
 
 

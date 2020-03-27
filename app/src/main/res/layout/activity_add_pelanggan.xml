@@ -7,7 +7,7 @@
     android:background="@color/bg"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.DavidMuheri.KadaiDen.Activity.AddPelanggan"
+    tools:context="com.Faresa.POS.Activity.AddPelanggan"
     tools:ignore="ContentDescription">
 
 

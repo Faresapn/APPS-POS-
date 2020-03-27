@@ -84,12 +84,12 @@
         </LinearLayout>
     </FrameLayout>
 
-    <com.DavidMuheri.KadaiDen.Tab.SlidingTabLayout
+    <com.Faresa.POS.Tab.SlidingTabLayout
         android:id="@+id/stl_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.DavidMuheri.KadaiDen.Tab.SlidingTabLayout>
+    </com.Faresa.POS.Tab.SlidingTabLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_tabs"

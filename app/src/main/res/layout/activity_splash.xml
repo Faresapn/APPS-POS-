@@ -6,7 +6,7 @@
     android:background="@android:color/white"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.DavidMuheri.KadaiDen.Activity.Splash_Activity">
+    tools:context="com.Faresa.POS.Activity.Splash_Activity">
 
 
     <ImageView
